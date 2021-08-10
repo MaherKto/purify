@@ -1,2 +1,3 @@
-# cp-blacklist-porn-m
-cp-blacklist-porn-m
+# Domain blocking
+
+> Support of the following fully pre-configured domain blocklist
