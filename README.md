@@ -15,15 +15,15 @@
 </p>
 
 <p align="center">
-    Inspired by <a href="https://github.com/cyberpurify" target="_blank">CyberPurify Team</a>
+    Inspired by <a href="https://github.com/cyberpurify" target="_blank">CyberPurify Kids</a>
 </p>
 
 Main collect
 ------------
 
-| Source              | Enabled | Size | Focus            | Information                                                                       |
-| :------------------ | :-----: | :--- | :--------------- | :-------------------------------------------------------------------------------- |
-| porn/hentai              | [x]       | M    | general           | [Link](https://raw.githubusercontent.com/cyberpurify/purify/master/Filters/filter/porn/m.txt)                                |
-| ads             | []       | M    | general          | [Link](https://raw.githubusercontent.com/cyberpurify/purify/master/Filters/filter/ads/m.txt)                                                       |
-| scam    | []        | M    | general         | [Link](https://raw.githubusercontent.com/cyberpurify/purify/master/Filters/filter/scam/m.txt)                             |
-| virus    | []        | M    | general         | [Link](https://raw.githubusercontent.com/cyberpurify/purify/master/Filters/filter/virus/m.txt)                             |
+| Source            | Enabled | Size | Focus            | Information                                                                       |
+| :---------------- | :-----: | :--- | :--------------- | :-------------------------------------------------------------------------------- |
+| porn/hentai       | :white_check_mark: | M | general | [Link](https://raw.githubusercontent.com/cyberpurify/purify/master/Filters/filter/porn/m.txt) |
+| ads               | :black_square_button: | M | general | [Link](https://raw.githubusercontent.com/cyberpurify/purify/master/Filters/filter/ads/m.txt) |
+| scam              | :black_square_button: | M | general | [Link](https://raw.githubusercontent.com/cyberpurify/purify/master/Filters/filter/scam/m.txt) |
+| virus             | :black_square_button: | M | general | [Link](https://raw.githubusercontent.com/cyberpurify/purify/master/Filters/filter/virus/m.txt) |
