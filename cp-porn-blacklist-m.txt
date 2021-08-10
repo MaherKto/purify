@@ -1,3 +1,11 @@
+################################[UPDATE]#################################
+# Source: https://cyberpurify.com/blacklist/porn-blocklist
+# Last update: Mon Aug 9 06:15:38 GMT 2021
+# License: https://raw.githubusercontent.com/cyberpurify/cp-blacklist-porn-m/master/LICENSE
+#################################[INFO]##################################
+# Blocks sex, pornography, hentai...
+# Total number of network filters: 25413
+################################[FILTERS]################################
 vlxx.xyz
 javhd.win
 sextop1.to
