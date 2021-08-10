@@ -1,0 +1,8 @@
+{
+    "yoyo": {
+        "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0&mimetype=plaintext",
+        "size": "S",
+        "focus": "general",
+        "descurl": "https://pgl.yoyo.org/as"
+    }
+}
