@@ -7,6 +7,7 @@
 # Total number of network filters: 25413
 ################################[FILTERS]################################
 topdev.vn
+tuoitre.vn
 vlxx.xyz
 javhd.win
 sextop1.to
