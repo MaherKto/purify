@@ -1,7 +1,37 @@
 {
-    "porn": {
+    "CyberPurify": {
         "url": "https://raw.githubusercontent.com/CyberPurify/Purify/master/Filters/filter/porn/m.txt",
+        "rule": "/^([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+([[:space:]]|$)/{print tolower($1)}",
         "size": "M",
-        "focus": "general"
+        "focus": "porn",
+        "descurl": "https://cyberpurify.com/"
+    },
+    "adguard": {
+        "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+        "rule": "BEGIN{FS=\"[\/|^|\\r]\"}/^\\|\\|([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+[\\/\\^\\r]+$/{print tolower($3)}",
+        "size": "L",
+        "focus": "general",
+        "descurl": "https://adguard.com"
+    },
+    "adaway": {
+        "url": "https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt",
+        "rule": "/^127\\.0\\.0\\.1[[:space:]]+([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+([[:space:]]|$)/{print tolower($2)}",
+        "size": "S",
+        "focus": "mobile",
+        "descurl": "https://github.com/AdAway/adaway.github.io"
+    },
+    "bitcoin": {
+        "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+([[:space:]]|$)/{print tolower($2)}",
+        "size": "S",
+        "focus": "mining",
+        "descurl": "https://github.com/hoshsadiq/adblock-nocoin-list"
+    },
+    "winspy": {
+        "url": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+([[:space:]]|$)/{print tolower($2)}",
+        "size": "S",
+        "focus": "win_telemetry",
+        "descurl": "https://github.com/crazy-max/WindowsSpyBlocker"
     }
 }
