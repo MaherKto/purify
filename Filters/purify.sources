@@ -15,7 +15,7 @@
     },
     "Facebook": {
         "url": "https://raw.githubusercontent.com/cyberpurify/purify/master/Filters/filter/app/fb.txt",
-        "rule": "/^([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+([[:space:]]|$)/{print tolower($1)}",
+        "rule": "/^0\\.0\\.0\\.0[[:space:]]+([[:alnum:]_-]{1,63}\\.)+[[:alpha:]]+([[:space:]]|$)/{print tolower($2)}",
         "size": "All",
         "focus": "FB+Insta+whatsapp",
         "descurl": "https://facebook.com"
