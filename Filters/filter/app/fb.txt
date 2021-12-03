@@ -14,3 +14,4 @@
 0.0.0.0 online-metrix.net
 0.0.0.0 tfbnw.net
 0.0.0.0 whatsapp.com
+0.0.0.0 pinterest.com
